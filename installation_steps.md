@@ -29,4 +29,4 @@ After each download, check download checksum. [HOW TO CHECK CHECKSUM](https://du
    --  Check if VirtualBox is on your path:<br />
    - In command line type: `vboxmanage -v`
    - If you see something, ( like this: `5.2.42_Ubuntur137960` or `6.1.18r142142`) you are good to go
-   - If not, add installation folder to path as explaned [here](https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho).
+   - If not, add installation folder to path as explained [here](https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho).
