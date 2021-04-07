@@ -12,8 +12,8 @@
    - Pick a download link
    - Download the virtual machine
 3) Import virtual machine <br />
-  - In the folder where you downloaded the HELLO_AH_WORLD.ova open a comman line/terminal.
-  - In command line/terminal type: `vboxmanage import HELLO_AH_WORLD.ova`
+   - In the folder where you downloaded the HELLO_AH_WORLD.ova open a comman line/terminal.
+   - In command line/terminal type: `vboxmanage import HELLO_AH_WORLD.ova`
 4) Start virtual machine <br />
   In command line type: `vboxmanage stratvm HELLO_AH_WORLD`
 5) Start using virtual machine <br />
