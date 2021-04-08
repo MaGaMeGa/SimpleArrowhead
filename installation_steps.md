@@ -6,24 +6,31 @@
       - [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
       - [FreeBSD](https://docs.freebsd.org/en_US.ISO8859-1/books/handbook/virtualization-host-virtualbox.html)
   - Or go to the [VirtualBox download site](https://www.virtualbox.org/wiki/Downloads) for adittional platform options
-  - Run installer - click, click, next ...
+  - Run installer - click, click, next ... <br />
+---
 2) Download virtual machine <br />
   - Go to the [Download site](https://github.com/MaGaMeGa/helloVM)
   - Pick a download link
-  - Download the virtual machine
+  - Download the virtual machine <br />
+---
 3) Import virtual machine <br />
   - In the folder where you downloaded the HELLO_AH_WORLD.ova open a comman line/terminal.
-  - In command line/terminal type: `vboxmanage import HELLO_AH_WORLD.ova`
+  - In command line/terminal type: `vboxmanage import HELLO_AH_WORLD.ova` <br />
+---
 4) Start virtual machine <br />
-  In command line type: `vboxmanage startvm HELLO_AH_WORLD`
+  In command line type: `vboxmanage startvm HELLO_AH_WORLD` <br />
+---
 5) Start using virtual machine <br />
     In the pop up terminal 
    - login : `root`
-   - password : default arrowhead password as [in](https://github.com/eclipse-arrowhead/core-java-spring#certificates)
+   - password : default arrowhead password as [in](https://github.com/eclipse-arrowhead/core-java-spring#certificates) <br />
+---
 
-### Optional steps
-After each download, check download checksum. [HOW TO CHECK CHECKSUM](https://duckduckgo.com/?t=canonical&q=verifiy+download+checksum&ia=web) <br />
-checksum verification script support / in progress...
+### Optional steps <br />
+ After each download, check download checksum. [HOW TO CHECK CHECKSUM](https://duckduckgo.com/?t=canonical&q=verifiy+download+checksum&ia=web) <br />
+ checksum verification script support / in progress... <br />
+
+---
 
 ### Troubleshooting
 - issue : *vboxmanage not found*<br />
