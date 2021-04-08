@@ -1,5 +1,5 @@
 ## Simple Arrowhead Local cloud setup and deployment - INSTALLATION STEPS ... in progress version
-1) ***Install Virtualbox***
+1) Install Virtualbox <br/>
   - Choose your platform and download the installer.
       - [Windows](https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-Win.exe)
       - [OS X](https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-OSX.dmg)
@@ -7,16 +7,16 @@
       - [FreeBSD](https://docs.freebsd.org/en_US.ISO8859-1/books/handbook/virtualization-host-virtualbox.html)
   - Or go to the [VirtualBox download site](https://www.virtualbox.org/wiki/Downloads) for adittional platform options
   - Run installer - click, click, next ...
-2) ***Download virtual machine*** <br />
+2) Download virtual machine <br />
   - Go to the [Download site](https://github.com/MaGaMeGa/helloVM)
   - Pick a download link
   - Download the virtual machine
-3) ***Import virtual machine*** <br />
+3) Import virtual machine <br />
   - In the folder where you downloaded the HELLO_AH_WORLD.ova open a comman line/terminal.
   - In command line/terminal type: `vboxmanage import HELLO_AH_WORLD.ova`
-4) ***Start virtual machine*** <br />
+4) Start virtual machine <br />
   In command line type: `vboxmanage startvm HELLO_AH_WORLD`
-5) ***Start using virtual machine*** <br />
+5) Start using virtual machine <br />
     In the pop up terminal 
    - login : `root`
    - password : default arrowhead password as [in](https://github.com/eclipse-arrowhead/core-java-spring#certificates)
