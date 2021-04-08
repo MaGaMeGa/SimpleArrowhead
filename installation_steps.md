@@ -1,32 +1,31 @@
 ## Simple Arrowhead Local cloud setup and deployment - INSTALLATION STEPS ... in progress version
 1) Install Virtualbox
-   - Choose your platform and download the installer.
+  - Choose your platform and download the installer.
       - [Windows](https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-Win.exe)
       - [OS X](https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-OSX.dmg)
       - [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
       - [FreeBSD](https://docs.freebsd.org/en_US.ISO8859-1/books/handbook/virtualization-host-virtualbox.html)
-   - Or go to the [VirtualBox download site](https://www.virtualbox.org/wiki/Downloads) for adittional platform options
-   - Run installer - click, click, next ...
+  - Or go to the [VirtualBox download site](https://www.virtualbox.org/wiki/Downloads) for adittional platform options
+  - Run installer - click, click, next ...
 2) Download virtual machine <br />
-   - Go to the [Download site](https://github.com/MaGaMeGa/helloVM)
-   - Pick a download link
-   - Download the virtual machine
+  - Go to the [Download site](https://github.com/MaGaMeGa/helloVM)
+  - Pick a download link
+  - Download the virtual machine
 3) Import virtual machine <br />
-   - In the folder where you downloaded the HELLO_AH_WORLD.ova open a comman line/terminal.
-   - In command line/terminal type: `vboxmanage import HELLO_AH_WORLD.ova`
+  - In the folder where you downloaded the HELLO_AH_WORLD.ova open a comman line/terminal.
+  - In command line/terminal type: `vboxmanage import HELLO_AH_WORLD.ova`
 4) Start virtual machine <br />
-  In command line type: `vboxmanage stratvm HELLO_AH_WORLD`
+  In command line type: `vboxmanage startvm HELLO_AH_WORLD`
 5) Start using virtual machine <br />
     In the pop up terminal 
-    - login : `root`
-    - password : default arrowhead password as [in](https://github.com/eclipse-arrowhead/core-java-spring#certificates)
+   - login : `root`
+   - password : default arrowhead password as [in](https://github.com/eclipse-arrowhead/core-java-spring#certificates)
 
 ### Optional steps
-After each download, check download checksum. [HOW TO CHECK CHECKSUM](https://duckduckgo.com/?t=canonical&q=verifiy+download+checksum&ia=web)
+After each download, check download checksum. [HOW TO CHECK CHECKSUM](https://duckduckgo.com/?t=canonical&q=verifiy+download+checksum&ia=web) <br />
+checksum verification script support / in progress...
 
 ### Troubleshooting
-- vboxmanage not found
-   --  Check if VirtualBox is on your path:<br />
-   - In command line type: `vboxmanage -v`
-   - If you see something, ( like this: `5.2.42_Ubuntur137960` or `6.1.18r142142`) you are good to go
-   - If not, add installation folder to path as explained [here](https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho).
+- issue : *vboxmanage not found*<br />
+  solution : add the VirtualBox installation folder to the systems path environment variable as explained [here](https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho). <br />
+  
