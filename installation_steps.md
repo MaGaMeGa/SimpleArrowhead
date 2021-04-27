@@ -23,7 +23,7 @@
 5) Start using virtual machine <br />
     In the pop up terminal 
    - login : `root`
-   - password : default arrowhead password as [in](https://github.com/eclipse-arrowhead/core-java-spring#certificates) <br />
+   - password : default arrowhead password as in [HERE](https://github.com/eclipse-arrowhead/core-java-spring#certificates) <br />
 ---
 
 ### Optional steps <br />
